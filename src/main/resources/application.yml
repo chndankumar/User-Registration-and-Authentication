@@ -15,21 +15,3 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-
-  redis:
-    host: redis-16844.c264.ap-south-1-1.ec2.redns.redis-cloud.com
-    port: 16844
-    password: ed0f8AtfblzxnjPHd2aBwwLOG7a8hCVI
-    ssl: true
-
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: chandanbarahara@gmail.com
-    password: dwzg ynkj ugsh pjzm
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
